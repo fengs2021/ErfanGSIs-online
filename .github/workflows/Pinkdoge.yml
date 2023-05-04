@@ -5,12 +5,12 @@ on:
   workflow_dispatch
     
 env:
-  ROM_URL: https://cfhcable.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/20.8.6/xiaomi.eu_multi_MIMAX3_20.8.6_v12-10.zip
-  ROM_NAME: MIUI
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu18X/10.23.4.27/cn_daily/20230427140850/41da8984/update.zip
+  ROM_NAME: Generic
   BUILD_AB: true
   BUILD_AONLY: true
-  ROM_AONLY: MAX3_Aonly_20.8.6-eu.7z
-  ROM_AB: K20P_AB_20.7.16-eu.7z
+  ROM_AONLY: meizu18x_Aonly_23.4.27.7z
+  ROM_AB: meizu18x_AB_23.4.27.7z
 
 jobs:
   build:
